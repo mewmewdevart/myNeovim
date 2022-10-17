@@ -1,21 +1,26 @@
+"------◊ Plugins ◊-----
 call plug#begin()
-        " Appearance
-        Plug 'vim-airline/vim-airline'
-        Plug 'ryanoasis/vim-devicons'
-        Plug 'sainnhe/edge'
-
-        " Utilities
-        Plug 'sheerun/vim-polyglot'
-        Plug 'jiangmiao/auto-pairs'
-        Plug 'ap/vim-css-color'
-        Plug 'preservim/nerdtree'
+	Plug 'wadackel/vim-dogrun'
+	Plug 'preservim/nerdtree'
+	Plug 'jiangmiao/auto-pairs'
+	Plug '42Paris/42header'
 call plug#end()
 
-set number
-set cursorline
-"set relativenumber
-"set title
+noremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
 
-set background=dark
-colorscheme edge
-syntax on
+"------◊ Colors ◊------
+colorscheme dogrun
+
+
+"------ ◊ General Config ◊------
+set number
+set numberwidth=4
+set cursorline
+
+
+"------◊ 42Header ◊-----
+let g:user42 = 'larcrist'
+let g:mail42 = 'larcrist@student.42sp.org.br'
