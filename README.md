@@ -9,3 +9,15 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 Link: https://github.com/junegunn/vim-plug
 
 Config file, which is located at ~/.config/nvim/init.vim with your init.vim informations
+
+
+### Terminal Design
+https://github.com/Gogh-Co/Gogh
+
+```
+sudo apt-get install dconf-cli uuid-runtime
+```
+
+```
+bash -c "$(wget -qO- https://git.io/vQgMr)"
+```
