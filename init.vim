@@ -7,6 +7,7 @@ call plug#begin()
   Plug 'preservim/nerdtree'
   Plug '42Paris/42header'
 call plug#end()
+nmap <F6> :NERDTreeToggle<CR>
 
 "------ ◊ General Config ◊------
 " Habilitar o modo de compatibilidade com a norminette da 42
