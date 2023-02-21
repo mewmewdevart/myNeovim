@@ -2,6 +2,8 @@
 My Neovim config for backup porpuses
 
 ### Installation
+Check the version of Neovim: https://github.com/neovim/neovim/releases
+
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
