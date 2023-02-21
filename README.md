@@ -13,7 +13,9 @@ Link: https://github.com/junegunn/vim-plug
 Config file, which is located at ~/.config/nvim/init.vim with your init.vim informations
 
 
-### Nerdthree cheatsheet
+### Nerdthree cheatsheet:
+Open and close nerdtree with: F6
+<br>
 Para mover para cima e para baixo na lista de arquivos/diretórios: use as teclas j e k respectivamente. <br>
 Para abrir um arquivo ou expandir uma pasta: mova o cursor para o item desejado e pressione Enter. <br>
 Para voltar para a janela do editor: pressione Ctrl+w duas vezes. <br>
