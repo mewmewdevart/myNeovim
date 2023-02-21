@@ -1,10 +1,10 @@
- 
 "------◊ Plugins ◊------
 call plug#begin()
   Plug 'tjdevries/colorbuddy.nvim'
   Plug 'folke/lsp-colors.nvim'
   Plug 'folke/tokyonight.nvim'
   Plug 'jiangmiao/auto-pairs'
+  Plug 'preservim/nerdtree'
   Plug '42Paris/42header'
 call plug#end()
 
